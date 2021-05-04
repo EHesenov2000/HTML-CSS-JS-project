@@ -1,0 +1,422 @@
+i {
+  font-size: 30px;
+}
+
+.BlueButton {
+  background-color: #572bd9;
+  color: white;
+}
+
+.YellowButton {
+  background-color: #ffdd33;
+  color: white;
+}
+
+button {
+  border: unset !important;
+  border-radius: 5px !important;
+}
+
+.card {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 4px 0px 11px -2px black;
+          box-shadow: 4px 0px 11px -2px black;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.ServicesCardIcon, .ServicesCardIconFontAwesome {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ServicesCardIcon img, .ServicesCardIconFontAwesome img {
+  width: 50px;
+  height: 50px;
+}
+
+.first {
+  background-color: #f2eeff;
+}
+
+.second {
+  background-color: #edfcf6;
+}
+
+.third {
+  background-color: #fffbe6;
+}
+
+header {
+  background-image: url(./../svg/header-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.Header {
+  width: 100%;
+  place-content: space-between;
+}
+
+.Left {
+  float: left;
+}
+
+.Right {
+  float: right;
+}
+
+.Text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Discover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Right ul {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navs:hover {
+  border-bottom: 3px solid #ffdd33;
+}
+
+ul .BlueButton:hover {
+  color: #572bd9;
+  background-color: white;
+}
+
+.RightIcon {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .Right {
+    display: none;
+  }
+  .RightIcon {
+    display: block;
+  }
+  .RightIcon ul li {
+    display: none;
+  }
+}
+
+.Inky img {
+  opacity: 0.5 !important;
+}
+
+.Inky img:hover {
+  opacity: 1 !important;
+}
+
+.BackGrey {
+  background-color: #fbfcfe;
+}
+
+.ServicesCardContent {
+  text-align: justify;
+}
+
+.ServicesCardIcon, .ServicesCardIconFontAwesome {
+  color: #3f62f4;
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2%;
+}
+
+.ServicesCardIconFontAwesome {
+  font-size: 60px;
+}
+
+.whiteArea {
+  background-color: white;
+  -webkit-box-shadow: 4px 0px 11px -2px black;
+          box-shadow: 4px 0px 11px -2px black;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.Ready {
+  background-image: url(./../svg/StartedBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 629px;
+}
+
+.Icon {
+  background-color: #edfcf6;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+}
+
+.PlanBackground {
+  background-image: url(./../svg/plan-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4%;
+}
+
+.Plan {
+  color: white;
+}
+
+.ViaIcon i {
+  color: #483091;
+  font-size: 20px;
+}
+
+.ViaIcon p {
+  color: #7e92ac;
+}
+
+.PlanCard:hover {
+  background-color: #3f62f4;
+  color: white;
+}
+
+.PlanCard:hover .ViaIcon i,
+.PlanCard:hover p {
+  color: white;
+}
+
+.telefonda {
+  display: none;
+}
+
+.Komputerde {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .Komputerde .col-lg-4 {
+    display: none !important;
+  }
+  .telefonda {
+    display: block !important;
+  }
+  .telefonda .telefonda ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.CardIconQuestion {
+  background-color: #fcf9e6;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.CardIconQuestion i {
+  color: #feb301;
+  font-size: 50px;
+}
+
+.WithoutBorder {
+  border: unset !important;
+}
+
+.CardText {
+  text-align: justify;
+}
+
+#name,
+#email,
+#message {
+  padding-left: 2%;
+  border-radius: 10px;
+  background-color: #f4f6fc;
+}
+
+.BottomReady {
+  background-image: url(./../svg/Bottom-Started-backround.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 629px;
+}
+
+.Subscribe {
+  border-radius: 3px !important;
+  height: 40px !important;
+  width: 150px !important;
+  margin-left: -1%;
+  background-color: #feb301;
+  color: white;
+}
+
+.Subscribe i {
+  font-size: 17px;
+}
+
+.EmailInput {
+  border-right: unset !important;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.icn {
+  background-color: blue;
+  padding: 3%;
+  border-radius: 50%;
+}
+
+.icn i {
+  color: white;
+  font-size: 30px;
+}
+
+.icnIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.BackgroundBlue {
+  background-color: #5b2aee;
+  color: white;
+}
+
+.BottomPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  place-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .floatRight {
+    display: none;
+  }
+  .BottomPage {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .Inky img {
+    max-width: 150px;
+  }
+  .Frequently .col-md-6 {
+    max-width: 300px;
+  }
+  .foot {
+    max-width: 300px;
+  }
+}
+
+.fa-angle-double-right {
+  margin-top: 5%;
+}
+
+.fa-angle-double-left {
+  margin-bottom: 5%;
+}
+
+.slick-initialized ul {
+  display: none !important;
+}
+
+.telefonda ul :nth-child(1) {
+  margin-bottom: 1%;
+}
+
+.stars {
+  max-width: 100px !important;
+}
+
+.stars i {
+  font-size: initial !important;
+}
+
+.BackGrey .container ul {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .BackGrey .container ul {
+    display: block;
+  }
+  .BackGrey .container .row {
+    display: none !important;
+  }
+  .Komputerde .slick-arrow {
+    display: none !important;
+  }
+}
+
+.slick-slide img {
+  display: inline !important;
+}
+/*# sourceMappingURL=index.css.map */
